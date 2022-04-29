@@ -5,7 +5,7 @@ import Login from '../pages/Login';
 
 const Routes: React.FC = () =>  (
     <Switch>
-        <Route path="/" component={Login}  />
+        <Route path="/" element={Login}  />
     </Switch>
 )
 
